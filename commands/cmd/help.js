@@ -6,7 +6,7 @@ module.exports = {
   name: "help",
   run: async(client, message, args) => {
     const embed = new MessageEmbed()
-     .setDescription("**Moje wszystkie komendy:**\n\n**Administracyjne**:\nban, kick, clear, embed (reszta wkrótce)\n\n**4Fun**:\niq, losuj, avatar, yt, dog, cat, fox  (reszta wkrótce)\n\n**Przydatne:**\nbotinfo, serverinfo, ping, link (reszta wkrótce) ")
+     .setDescription("**Moje wszystkie komendy:**\n\n**Administracyjne**:\nban, kick, clear, giverole, removerole\n\n**4Fun**:\niq, losuj, avatar, yt, hug, kiss, kill, slap, clyde, rzutmoneta\n\n**Przydatne:**\nbotinfo, serverinfo, ping, link, help")
      .setColor("#eb0707")
      .setTimestamp()
      .setFooter(`${message.author.tag}`, message.author.displayAvatarURL());
